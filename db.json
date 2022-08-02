@@ -15,6 +15,11 @@
       "favourite_music_genre": "Rap",
       "preferred_programming_language": "Python",
       "best_frontend_framework": "React"
+    },
+    {
+      "name": "Alex Second",
+      "location": "Kongo",
+      "id": "15"
     }
   ],
   "polls": [
