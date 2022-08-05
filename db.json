@@ -1,61 +1,280 @@
 {
-  "users": [
+  "user": [
     {
-      "username": "John.x.Doe",
-      "age": 32,
-      "favourite_music_genre": "Jazz",
-      "preferred_programming_language": "Javascript",
-      "best_frontend_framework": "Vue",
+      "id": 1,
+      "userName": "0",
+      "userRole": "ADMIN",
+      "userEmail": "zero@gmail.com",
+      "userPhone": "+3801111111",
+      "userDeliveryPlace": "zero@gmail.com"
+    }
+  ],
+  "SushiBar": [
+    {
+      "id": 1,
+      "artikul": "0000001",
+      "name": "Филадельфия Лайт",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Лосось, Крем-сыр, Огурец, Ореховый соус, Миндальные хлопья",
+      "qnty": 8,
+      "weight": 250,
+      "img": "00.jpg"
+    },
+    {
+      "artikul": 30296,
+      "name": "Филадельфия с креветкой лайт",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Креветка, Крем-сыр, Огурец, Соус манго-ананас",
+      "qnty": 8,
+      "weight": 250,
+      "img": "01.jpg",
+      "id": 2
+    },
+    {
+      "artikul": 5995,
+      "name": "Кайдо",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Лосось, Омлет, Шпинат, Соус манго-ананас, Рисовые шарики",
+      "qnty": 8,
+      "weight": 250,
+      "img": "02.jpg",
+      "id": 3
+    },
+    {
+      "artikul": 49216,
+      "name": "Киото",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Лосось, Крем-сыр, Такуан, Хияши, Ореховый соус ",
+      "qnty": 8,
+      "weight": 250,
+      "img": "03.jpg",
+      "id": 4
+    },
+    {
+      "artikul": 61992,
+      "name": "Пико",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Креветка темпура, Сыр чедр, Огурец, Соус унаги, Рисовые шарики",
+      "qnty": 8,
+      "weight": 250,
+      "img": "04.jpg",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "artikul": 58024,
+      "name": "Филадельфия с креветкой лайт",
+      "type": "rolls",
+      "kind": "Лайт меню",
+      "price": 249,
+      "about": "Состав: Креветка, Крем-сыр, Огурец, Соус манго-ананас, Вес: 250 г.",
+      "qnty": 8,
+      "weight": 250,
+      "img": "01.jpg"
+    },
+    {
+      "name": "Запеченный Ролл с угрем",
+      "store": "SushiBar",
+      "type": "rolls",
+      "kind": "Запеченные роллы",
+      "price": 350,
+      "about": "Крем-сыр, креветки, авокадо, икра тобика, сырная шапочка",
+      "qnty": 8,
+      "weight": 320,
+      "img": "06.jpg",
+      "id": "OP4E1Z"
+    },
+    {
+      "name": "Запеченный Ролл с угрем",
+      "store": "SushiBar",
+      "type": "rolls",
+      "kind": "Запеченные роллы",
+      "price": 350,
+      "about": "Крем-сыр, креветки, авокадо, икра тобика, сырная шапочка",
+      "qnty": 8,
+      "weight": 320,
+      "img": "06.jpg",
+      "id": "LPPWGL"
+    },
+    {
+      "name": "Запеченный Ролл с угрем",
+      "store": "SushiBar",
+      "type": "rolls",
+      "kind": "Запеченные роллы",
+      "price": 350,
+      "about": "Крем-сыр, креветки, авокадо, икра тобика, сырная шапочка",
+      "qnty": 8,
+      "weight": 320,
+      "img": "06.jpg",
+      "id": "R7UO3T"
+    },
+    {
+      "name": "Запеченный Ролл с угрем",
+      "store": "SushiBar",
+      "type": "rolls",
+      "kind": "Запеченные роллы",
+      "price": 350,
+      "about": "Крем-сыр, креветки, авокадо, икра тобика, сырная шапочка",
+      "qnty": 8,
+      "weight": 320,
+      "img": "06.jpg",
+      "id": "D30L9U"
+    },
+    {
+      "name": "Запеченный Ролл с угрем",
+      "store": "SushiBar",
+      "type": "rolls",
+      "kind": "Запеченные роллы",
+      "price": 350,
+      "about": "Крем-сыр, креветки, авокадо, икра тобика, сырная шапочка",
+      "qnty": 8,
+      "weight": 320,
+      "img": "06.jpg",
+      "id": "ZCN7VD"
+    }
+  ],
+  "Pizza": [
+    {
+      "id": 7,
+      "artikul": 2949,
+      "name": "ПИЦЦА MALDONI PEPERONI",
+      "type": "pizza",
+      "price": 215,
+      "about": "Салями, копченый перец Халапеньо, сыр Моцарелла, помидоры, соус Барбекю",
+      "qnty": 1,
+      "weight": 470,
+      "img": "p00.jpg"
+    },
+    {
+      "artikul": 6394,
+      "name": "ПИЦЦА MARGARITA BASILICO",
+      "type": "pizza",
+      "price": 155,
+      "about": "Вяленые помидоры, сыр Моцарелла, базилик, томатный соус",
+      "qnty": 1,
+      "weight": 370,
+      "img": "p01.jpg",
+      "id": 8
+    },
+    {
+      "artikul": 2161,
+      "name": "ПИЦЦА SENORITA CARBONARA",
+      "type": "pizza",
+      "price": 215,
+      "about": "Бекон, шампиньоны, маринованный лук, куриное яйцо, сыр Моцарелла, сыр Пармезан, зеленый лук, белый соус",
+      "qnty": 1,
+      "weight": 490,
+      "img": "p02.jpg",
+      "id": 9
+    },
+    {
+      "artikul": 910939,
+      "name": "ПІЦА HAWAIIAN BBQ",
+      "type": "pizza",
+      "price": 235,
+      "about": "Куряче філе, копчений перець, консервований ананас, консервована кукурудза, соус Барбекю, сир Моцарела",
+      "qnty": 1,
+      "weight": 500,
+      "img": "p03.jpg",
+      "id": 10
+    },
+    {
+      "artikul": 981450,
+      "name": "FOUR CHEESE",
+      "type": "pizza",
+      "price": 235,
+      "about": "Сыр «Моцарелла», сыр «Эдамер», сыр «Дор Блю», сыр «Пармезан»",
+      "qnty": 1,
+      "weight": 375,
+      "img": "p04.jpg",
+      "id": 11
+    },
+    {
+      "artikul": 40651,
+      "name": "ПІЦА DOUBLE CHEESE",
+      "type": "pizza",
+      "price": 255,
+      "about": "Куряче стегно, джем бекон, цибуля, маринований огірок, сир Чедер, сир Моцарела, соус Барбекю",
+      "qnty": 1,
+      "weight": 500,
+      "img": "p05.jpg",
+      "id": 12
+    },
+    {
+      "artikul": 36382,
+      "name": "ПІЦА DOUBLE CHEESE",
+      "type": "pizza",
+      "price": 255,
+      "about": "Куряче стегно, джем бекон, цибуля, маринований огірок, сир Чедер, сир Моцарела, соус Барбекю",
+      "qnty": 1,
+      "weight": 500,
+      "img": "p05.jpg",
+      "id": 13
+    },
+    {
+      "name": "ПІЦА DOUBLE CHEESE",
+      "type": "pizza",
+      "price": 255,
+      "about": "Куряче стегно, джем бекон, цибуля, маринований огірок, сир Чедер, сир Моцарела, соус Барбекю",
+      "qnty": 1,
+      "weight": 500,
+      "img": "p05.jpg",
+      "id": "GRJ0F4"
+    }
+  ],
+  "Burgers": [
+    {
+      "artikul": 377814,
+      "name": "БУРГЕР EXCALIBUR",
+      "type": "burger",
+      "price": 235,
+      "about": "Булочка на выбор, котлета из говядины, сыр Чеддер, бекон, салат Ромен, помидор, лук, арахис, соус медовый майонез. Это блюдо содержит следующие аллергены: злаки(глютен), горчица, молоко, арахис, яйца",
+      "qnty": 1,
+      "weight": 270,
+      "img": "b00.jpg",
       "id": 1
     },
     {
-      "id": 2,
-      "username": "SniperxXx",
-      "age": 23,
-      "favourite_music_genre": "Rap",
-      "preferred_programming_language": "Python",
-      "best_frontend_framework": "React"
+      "artikul": 293668,
+      "name": "БУРГЕР SUPER GRILL",
+      "type": "burger",
+      "price": 240,
+      "about": "Булочка на выбор, котлета из говядины, сыр Чеддер, бекон, салат Ромен, помидор, лук, арахис, соус медовый майонез. Это блюдо содержит следующие аллергены: злаки(глютен), горчица, молоко, арахис, яйца",
+      "qnty": 1,
+      "weight": 285,
+      "img": "b01.jpg",
+      "id": 2
     },
     {
-      "name": "Alex Second",
-      "location": "Kongo",
-      "id": "15"
-    }
-  ],
-  "polls": [
-    {
-      "question": "Favourite Music Genre?",
-      "options": [
-        "Rock",
-        "Pop",
-        "Country",
-        "Rap",
-        "Jazz",
-        "Hip Hop",
-        "RNB",
-        "None",
-        "Depends"
-      ]
+      "artikul": 241289,
+      "name": "Chicken white",
+      "type": "burger",
+      "price": 200,
+      "about": "Куряча котлета, бекон, сир чеддер, салат ромен, томат, соус тартар, картопля фрі, пікантний соус",
+      "qnty": 1,
+      "weight": 300,
+      "img": "b02.jpg",
+      "id": 3
     },
     {
-      "question": "Preferred Programming Language?",
-      "options": [
-        "Java",
-        "C",
-        "C++",
-        "C#",
-        "Javascript",
-        "Python",
-        "Kotlin"
-      ]
-    },
-    {
-      "question": "Better Frontend JS Framework?",
-      "options": [
-        "React",
-        "Vue",
-        "Angular"
-      ]
+      "name": "Chicken white",
+      "type": "burger",
+      "price": 200,
+      "about": "Куряча котлета, бекон, сир чеддер, салат ромен, томат, соус тартар, картопля фрі, пікантний соус",
+      "qnty": 1,
+      "weight": 300,
+      "img": "b02.jpg",
+      "id": "1P0SZ0"
     }
   ]
 }
