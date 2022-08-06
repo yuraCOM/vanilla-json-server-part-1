@@ -1,0 +1,7 @@
+add
+heroku login
+git init
+heroku git:remote -a jsonserver-my
+git add .
+git commit -am "hosting a json-server"
+git push heroku master
