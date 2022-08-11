@@ -1,9 +1,6 @@
 {
   "users": [
     {
-      "info": []
-    },
-    {
       "id": 1,
       "userName": "0",
       "userRole": "ADMIN",
